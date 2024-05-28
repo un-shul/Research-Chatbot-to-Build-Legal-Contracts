@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Research Chatbot to Build Contract</title>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto mt-10 p-5 bg-white shadow-lg rounded-lg">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Research Chatbot to Build Contract</h1>
+            <p class="mt-2 text-lg text-gray-600">Waterr AI</p>
+            <p class="mt-1 text-lg text-gray-600">Data Science Internship Short Assignment</p>
+        </div>
+        <div class="mt-6 flex justify-end">
+            <p class="text-right text-gray-800">
+                <span class="font-bold">Anshul Choudhary</span><br>
+                <span class="font-bold">choudharyanshul@iitgn.ac.in</span>
+            </p>
+        </div>
+        <form action="/generate" method="post" class="mt-8">
+            <div class="mb-4">
+                <label for="user_input" class="block text-gray-700 text-sm font-bold mb-2">Contract Details:</label>
+                <textarea name="user_input" id="user_input" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    Generate Contract
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
